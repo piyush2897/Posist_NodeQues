@@ -1,6 +1,6 @@
 var crypto = require('crypto'),
     algorithm = 'aes-256-ctr',
-    key = '123456';
+    key = 'OwnerId_Given_by_user';
 
 module.exports = function decrypt(text){
   var decipher = crypto.createDecipher(algorithm,key)
